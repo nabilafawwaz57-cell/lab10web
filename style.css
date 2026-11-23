@@ -1,0 +1,89 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #5c4452;
+}
+
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(214, 112, 160, 0.15);
+}
+
+header {
+    padding: 30px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #f8c8dc, #fce4ec);
+    border-radius: 14px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    color: #a64d79;
+}
+
+header p {
+    margin: 0;
+    color: #80566b;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 15px;
+    background: #fff5f8;
+    border-radius: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b0527d;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #f4bfd5;
+    color: #7e3158;
+}
+
+main {
+    min-height: 250px;
+    padding: 25px;
+    margin-top: 15px;
+    background: #fffafd;
+    border: 1px solid #f7dce8;
+    border-radius: 12px;
+}
+
+.content h2 {
+    color: #b0527d;
+    margin-top: 0;
+}
+
+.content p {
+    line-height: 1.8;
+    color: #6e5663;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 18px;
+    background: #fce4ec;
+    color: #a64d79;
+    border-radius: 12px;
+    font-size: 14px;
+}
